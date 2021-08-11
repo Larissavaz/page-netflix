@@ -1,0 +1,139 @@
+:root {
+    --vermelho: #e50914;
+    --preta: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body .background {
+    background: linear-gradient(rgba(0, 0, 0, 0.87), transparent, rgba(0, 0, 0)),  url('/img/capa-halloween-kills.jpg');
+    height: 600px;
+    background-size: 100% 100%;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header img {
+    margin: 0px 45px 7px 60px;
+    align-items: right;
+    width: 8%;
+}
+
+header nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--vermelho);
+    margin-right: 15px;
+}
+
+#inicio {
+    color: white;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/*filme principal*/
+main .filme-principal img {
+    margin: 150px 0px 5px 60px;
+    width: 40%;
+}
+
+.filme-principal {
+    font-size:17px;
+}
+
+.descricao {
+    margin: 15px 65% 20px 60px;
+    text-align: justify;
+}
+
+.buttons {
+    margin-top: 35px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+.assistir {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: var(--vermelho);
+    cursor: pointer;
+}
+
+.assistir:hover {
+    background: var(--preta);
+    color: var(--vermelho);
+}
+
+.assistir i {
+    margin-right: 15px;
+}
+
+.info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: var(--preta);
+    cursor: pointer;
+}
+
+.info:hover {
+    background: var(--preta);
+    color: var(--vermelho);
+}
+
+.info i {
+    margin-right: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-left: 60px;
+    margin-bottom: 12px;
+}
+
+.carrosel {
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+.owl-carousel owl-theme {
+    background: linear-gradient(rgba(0, 0, 0, 0.87), transparent, rgba(0, 0, 0));
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+}
+
+.box-filme {
+    display: block;
+}
+
+
+

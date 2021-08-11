@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+      width: 15%;
+    }
+
+    main .filme-principal img {
+        margin: 150px 0px 5px 40px;
+        width: 40%;
+    }
+
+    .filme-principal .descricao {
+        font-size: 18px;
+        margin-left: 40px;
+        margin-right: 10%;
+    }
+
+    .buttons {
+        margin-left: 40px;
+        margin-bottom: 70px;
+    }
+
+    .assistir {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .info {
+        font-size: 15px;
+        margin-top: 5px;
+        padding: 5px 10px;
+    }
+
+     h3 {
+        margin-left: 40px;
+    }
+
+    .carrosel {
+        margin-left: 40px;
+    }
+}
+

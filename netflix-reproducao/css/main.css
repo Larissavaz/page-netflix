@@ -1,0 +1,134 @@
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body .background {
+    background: linear-gradient(rgba(0, 0, 0, 0.87), transparent, rgba(0, 0, 0)),  url('/img/capa-jane-the-virgin.jpg');
+    height:800px;
+    background-size: 100% 100%;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+    margin: 8px 45px 7px 60px;
+    align-items: right;
+    width: 6%;
+}
+
+header nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color:#dcdcdc;
+    margin-right: 15px;
+}
+
+#inicio {
+    color: white;
+}
+
+header nav a:hover {
+    color: #a9a9a9;
+}
+
+/*filme principal*/
+main .filme-principal img {
+    margin: 150px 0px 5px 60px;
+    width: 25%;
+}
+
+.filme-principal {
+    font-size:23px;
+}
+
+.descricao {
+    margin: 0px 65% 20px 60px;
+    text-align: justify;
+}
+
+.buttons {
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+.assistir {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+.assistir:hover {
+    background: #dcdcdc;
+}
+
+.assistir i {
+    margin-right: 15px;
+}
+
+.info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(90, 89, 89, 0.795);
+    color: white;
+    cursor: pointer;
+}
+
+.info:hover {
+    background: rgba(90, 89, 89, 0.400);
+}
+
+.info i {
+    margin-right: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-left: 60px;
+    margin-bottom: 12px;
+}
+
+.carrosel {
+    margin-left: 60px;
+}
+
+.owl-carousel owl-theme {
+    background: linear-gradient(rgba(0, 0, 0, 0.87), transparent, rgba(0, 0, 0));
+}
+
+.item {
+    width: 90%;
+    height: 90%;
+}
+
+.box-filme {
+    display: block;
+}
+
+
+
